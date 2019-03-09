@@ -230,7 +230,7 @@
 
                 })
                 .catch(()=>{
-
+                    this.$Progress.fail();
                 })
             }
         },
